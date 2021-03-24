@@ -1,4 +1,4 @@
-# Modern clang docker containers
+# Clang docker container for TMIV CI
 
 [![docker](https://img.shields.io/docker/pulls/cbachhuber/tmiv-clang.svg)](https://hub.docker.com/r/cbachhuber/timv-clang/)
 
