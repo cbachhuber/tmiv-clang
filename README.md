@@ -2,5 +2,13 @@
 
 [![docker](https://img.shields.io/docker/pulls/cbachhuber/tmiv-clang.svg)](https://hub.docker.com/r/cbachhuber/timv-clang/)
 
-A docker container with modern cmake and clang for [TMIV](https://gitlab.com/mpeg-i-visual/tmiv)'s continuous integration.
-Built on top of [cbachhuber/clang](https://github.com/cbachhuber/clang), it additionally offers build caching with [ccache](https://ccache.dev/).
+A docker container with modern CMake and clang for [TMIV](https://gitlab.com/mpeg-i-visual/tmiv)'s continuous integration.
+Built on top of [cbachhuber/clang](https://github.com/cbachhuber/clang), it additionally offers
+
+- build caching with [ccache](https://ccache.dev/).
+- TMIV's CMake dependencies:
+  - [Catch2](https://github.com/catchorg/Catch2.git)
+  - [fmt](https://github.com/fmtlib/fmt.git)
+  - [HM](https://vcgit.hhi.fraunhofer.de/jct-vc/HM.git)
+  - [VVdeC](https://github.com/fraunhoferhhi/vvdec)
+  - [VVenC](https://github.com/fraunhoferhhi/vvenc)
