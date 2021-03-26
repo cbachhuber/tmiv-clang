@@ -6,6 +6,8 @@ A docker container with modern CMake and clang for [TMIV](https://gitlab.com/mpe
 Built on top of [cbachhuber/clang](https://github.com/cbachhuber/clang), it additionally offers
 
 - build caching with [ccache](https://ccache.dev/).
+  Inside the docker container, folder `/.ccache` is used for caching.
+  Mount that one with read&write rights to a persistent folder on your machine to achieve build caching between container invocations.
 - TMIV's CMake dependencies in folder `/dependencies`:
   - [Catch2](https://github.com/catchorg/Catch2.git)
   - [fmt](https://github.com/fmtlib/fmt.git)
