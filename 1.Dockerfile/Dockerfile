@@ -15,8 +15,8 @@ ENV CC=/usr/lib/ccache/clang-11
 ENV CCACHE_DIR=/.ccache
 
 RUN mkdir -p /dependencies
-RUN git clone --depth 1 --branch v2.13.4 https://github.com/catchorg/Catch2.git /dependencies/catch2
-RUN git clone --depth 1 --branch 7.0.3 https://github.com/fmtlib/fmt.git /dependencies/fmt
-RUN git clone --depth 1 --branch HM-16.16 https://vcgit.hhi.fraunhofer.de/jct-vc/HM.git /dependencies/hm
-RUN git clone --depth 1 --branch v0.2.0.0 https://github.com/fraunhoferhhi/vvdec /dependencies/vvdec
-RUN git clone --depth 1 --branch v0.2.0.0 https://github.com/fraunhoferhhi/vvenc /dependencies/vvenc
+RUN git clone --depth 1 --branch v2.13.4 https://github.com/catchorg/Catch2.git /dependencies/Catch2-2_13_4
+RUN git clone --depth 1 --branch 7.0.3 https://github.com/fmtlib/fmt.git /dependencies/fmt-7_0_3
+RUN git clone --depth 1 --branch HM-16.16 https://vcgit.hhi.fraunhofer.de/jct-vc/HM.git /dependencies/HM-16_16
+RUN git clone --depth 1 --branch v0.2.0.0 https://github.com/fraunhoferhhi/vvdec /dependencies/vvdec-0_2_0_0
+RUN git clone --depth 1 --branch v0.2.0.0 https://github.com/fraunhoferhhi/vvenc /dependencies/vvenc-0_2_0_0
