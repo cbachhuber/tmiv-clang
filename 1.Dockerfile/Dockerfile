@@ -21,3 +21,4 @@ RUN git clone --depth 1 --branch HM-16.16 https://vcgit.hhi.fraunhofer.de/jct-vc
 RUN git clone --depth 1 --branch v1.0.1 https://github.com/fraunhoferhhi/vvdec /dependencies/vvdec-1_0_1
 RUN git clone --depth 1 --branch v0.2.0.0 https://github.com/fraunhoferhhi/vvenc /dependencies/vvenc-0_2_0_0
 RUN git clone --depth 1 --branch v0.3.1.0 https://github.com/fraunhoferhhi/vvenc /dependencies/vvenc-0_3_1_0
+RUN git clone --depth 1 --branch v1.0.0 https://github.com/fraunhoferhhi/vvenc /dependencies/vvenc-1_0_0
