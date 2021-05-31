@@ -14,3 +14,8 @@ Built on top of [cbachhuber/clang](https://github.com/cbachhuber/clang), it addi
   - [HM](https://vcgit.hhi.fraunhofer.de/jct-vc/HM.git)
   - [VVdeC](https://github.com/fraunhoferhhi/vvdec)
   - [VVenC](https://github.com/fraunhoferhhi/vvenc)
+
+Tags and corresponding docker files:
+
+- `1`: [1.Dockerfile/](https://github.com/cbachhuber/tmiv-clang/blob/master/1.Dockerfile/Dockerfile) contains clang 11
+- `2`: [2.Dockerfile/](https://github.com/cbachhuber/tmiv-clang/blob/master/2.Dockerfile/Dockerfile) contains clang 12
