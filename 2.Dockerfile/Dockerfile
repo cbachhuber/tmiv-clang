@@ -1,6 +1,6 @@
 FROM cbachhuber/clang:12
 
-RUN apt-get update -qq && DEBIAN_FRONTENT=noninteractive apt-get install -qqy --no-install-recommends \
+RUN apt-get update -qq && DEBIAN_FRONTEND=noninteractive apt-get install -qqy --no-install-recommends \
         build-essential \
         ccache
 
